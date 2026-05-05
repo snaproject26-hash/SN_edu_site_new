@@ -1,0 +1,6 @@
+/node_modules
+/server/node_modules
+
+.env
+server/config/database.js
+server/config/database.js
