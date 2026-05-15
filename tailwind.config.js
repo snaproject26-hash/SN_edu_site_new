@@ -129,11 +129,7 @@ module.exports = {
         maxContent: "1260px",
         maxContentTab: "650px"
       },
-      screens:{
-        md:'930px',
-      }
     },
   },
-  variants:{},
   plugins: [],
 };

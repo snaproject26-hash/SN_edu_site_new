@@ -3,7 +3,7 @@ import RatingStars from '../../common/RatingStars'
 import GetAvgRating from '../../../utils/avgRating';
 import { Link } from 'react-router-dom';
 
-const CourseCard = ({course, Height}) => {
+const Course_Card = ({course, Height}) => {
 
 
     const [avgReviewCount, setAvgReviewCount] = useState(0);
@@ -46,4 +46,4 @@ const CourseCard = ({course, Height}) => {
   )
 }
 
-export default CourseCard
+export default Course_Card

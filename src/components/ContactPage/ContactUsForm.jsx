@@ -47,7 +47,6 @@ const ContactUsForm = () => {
     <form
       className="flex flex-col gap-7"
       onSubmit={handleSubmit(submitContactForm)}
-      style={{marginTop: "30px"}}
     >
       <div className="flex flex-col gap-5 lg:flex-row">
         <div className="flex flex-col gap-2 lg:w-[48%]">
@@ -128,7 +127,7 @@ const ContactUsForm = () => {
           </div>
           <div className="flex w-[calc(100%-90px)] flex-col gap-2">
             <input
-              type="tel"
+              type="number"
               name="phonenumber"
               id="phonenumber"
               placeholder="12345 67890"
@@ -138,7 +137,7 @@ const ContactUsForm = () => {
                   value: true,
                   message: "Please enter your Phone Number.",
                 },
-                maxLength: { value: 10, message: "Invalid Phone Number" },
+                maxLength: { value: 12, message: "Invalid Phone Number" },
                 minLength: { value: 10, message: "Invalid Phone Number" },
               })}
             />
