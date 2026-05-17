@@ -1,6 +1,7 @@
 // const BASE_URL = "http://localhost:4000/api/v1";
 // snedusite.up.railway.app
-const BASE_URL = "http://snedusite.up.railway.app/api/v1";
+// const BASE_URL = "http://snedusite.up.railway.app/api/v1";
+const BASE_URL = "https://sn-edu-site-new-kdt7.onrender.com/api/v1";
 
 // AUTH ENDPOINTS
 export const endpoints = {
