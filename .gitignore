@@ -3,5 +3,5 @@
 
 .env
 build/
-server/config/database.js
-server/config/database.js
+
+server/.env.*
