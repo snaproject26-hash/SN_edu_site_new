@@ -22,6 +22,7 @@ async function sendVerificationEmail(email, otp) {
   // Create a transporter to send emails
 
   // Define the email options
+  console.log("OTP is : ", otp);
 
   // Send the email
   try {
@@ -44,7 +45,7 @@ OTPSchema.pre("save", async function (next) {
 
   // Only send an email when a new document is created
   if (this.isNew) {
-    await sendVerificationEmail(this.email, this.otp);
+    sendVerificationEmail(this.email, this.otp);
   }
   next();
 });
